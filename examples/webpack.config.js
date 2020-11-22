@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -10,7 +11,6 @@ module.exports = {
         if (fs.statSync(fullDir).isDirectory() && fs.existsSync(entry)) {
           entries[dir] = ['webpack-hot-middleware/client', entry];
         }
-
         return entries;
     }, {}), //set initialValue is important, which init the accumulator
 
@@ -21,15 +21,6 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.ts$/,
-                enforce: 'pre',
-                use: [
-                    {
-                        loader: 'tslint-loader',
-                    }
-                ]
-            },
             {
                 test: /\.tsx?$/,
                 use: [
@@ -47,6 +38,7 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js']
     },
     plugins: [
+        new ESLintPlugin({}),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoEmitOnErrorsPlugin()
     ]

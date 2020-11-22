@@ -23,10 +23,6 @@ app.use(router);
 
 app.use(webpackDevMiddleware(compiler, {
     publicPath: '/build/',
-    stats: {
-        colors: true,
-        chunks: false
-    }
 }));
 
 app.use(webpackHotMiddleware(compiler));
