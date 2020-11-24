@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [axios-browser](README.md)
+* [Contributor Covenant Code of Conduct](code-of-conduct.md)
+* [CONTRIBUTING](contributing.md)
 

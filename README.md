@@ -1,25 +1,18 @@
-# Initial page
+---
+description: Refactor all functions of axios on the browser with typescript
+---
 
-## Getting Super Powers
+# axios-browser
 
-Becoming a super hero is a fairly straight forward process:
+#### TODO:
 
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+* [ ] Build Axios basic function
+  * [ ] process request url parameters
+  * [ ] process request body data
+  * [ ] process request header
+  * [ ] get response data
+  * [ ] process response data
+* [ ] Handle the exception
 
 
 
