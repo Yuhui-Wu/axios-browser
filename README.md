@@ -6,13 +6,13 @@ description: Refactor all functions of axios on the browser with typescript
 
 #### TODO:
 
-* [ ] Build Axios basic function
-  * [ ] process request url parameters
-  * [ ] process request body data
-  * [ ] process request header
-  * [ ] get response data
-  * [ ] process response data
-* [ ] Handle the exception
+* [x] Build Axios basic function
+  * [x] process request url parameters
+  * [x] process request body data
+  * [x] process request header
+  * [x] get response data
+  * [x] process response data
+* [x] Handle the exception
 
 
 
