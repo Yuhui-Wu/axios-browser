@@ -37,6 +37,8 @@ registerErrorRouter();
 
 registerExtendRouter();
 
+registerInterceptorRouter();
+
 app.use(router);
 
 function registerSimpleRouter() {
@@ -128,6 +130,12 @@ function registerExtendRouter() {
             result: {name: "Monica", age: 26},
             message: "get successfully"
         });
+    })
+}
+
+function registerInterceptorRouter() {
+    router.get('/interceptor/get', function(req, res) {
+        res.end("hello");
     })
 }
 
