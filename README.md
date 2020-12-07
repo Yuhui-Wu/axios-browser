@@ -11,9 +11,9 @@ description: Refactor all functions of axios on the browser with typescript
 * [x] Interface Extensions
 * [x] Axios Interceptor
 * [x] Axios Configuration
-  * [x] Bind Axios Configuration
-  * [x] Config reuqest and response
 * [ ] Build cancel function
+  * [ ] Cancel request
+  * [ ] Cancel response
 * [ ] Other function
 * [ ] Unit Testing
 * [ ] Delopyment 
