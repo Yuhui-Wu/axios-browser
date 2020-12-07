@@ -10,9 +10,9 @@ description: Refactor all functions of axios on the browser with typescript
 * [x] Handle the exception
 * [x] Interface Extensions
 * [x] Axios Interceptor
-* [ ] Axios Configuration
+* [x] Axios Configuration
   * [x] Bind Axios Configuration
-  * [ ] Config reuqest and response
+  * [x] Config reuqest and response
 * [ ] Build cancel function
 * [ ] Other function
 * [ ] Unit Testing
